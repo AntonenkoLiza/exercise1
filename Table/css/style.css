@@ -1,0 +1,14 @@
+table {
+	width: 50%;
+	border: 1px solid black;
+}
+td {
+	border: 1px solid black;
+}
+th {
+	border: 1px solid black;
+}
+/* Последняя ячейка из последней строки таблицы*/ /* Выравнивание по центру */
+tr:nth-last-child(-n+1)	td:nth-last-child(-n+1){
+	text-align: center;
+}
