@@ -1,46 +1,47 @@
 body {
 	background: white;
+	display: flex;
 }
 
 .card {
 	width: 360px;
 	height: 460px;
-	display: inline-block;
-	position: relative;
 	margin: 17px 15px;
-
 	font-family: sans-serif;
+	position: relative;
 }
 
 .card__number{
 	font-size: 165px;
+}
+
+.card__button img{
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	width: unset;
+	bottom:83px;
+	right: 14px;
+	width: 57px;
 }
 
 .card__text{
 	font-size: 30px;
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	padding: 40px 20px;
 	margin:0;
 	background-color: white;
-	display: block;
 	width: 320px;
 	height: 30px;
 	box-shadow: -3px 3px 7px #a9a9a9, 3px 3px 7px #a9a9a9;
 }
 
-.card_size_position{
+.card__preview{
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
 	width: 360px;
 	height: 350px;
 	top: 0;
 	left: 0;
-	position: absolute;
 }
 
 .card__card1 {
